@@ -75,14 +75,14 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .header-main-nav ul {
         margin-top: 0.1vw;
 
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .header-main-nav ul li {
         margin-top: 0.1vw;
         display: block;
@@ -140,28 +140,31 @@ img:hover {
 }
 
 /* MEDIA QUERY ON CARDS and IMAGES */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .container {
         display: block;
         background-color: rgba(21, 136, 6, 0.2);
         width: 100%;
+        height: auto;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .cards_container {
         display: block;
         padding: 20px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
         .overlay {
             position: relative;
+            /* margin-right: 40px; */
             bottom: 0;
             background: rgb(0, 0, 0);
             background: rgba(0, 0, 0, 0.5);
             color: #f1f1f1;
             width: 100%;
+            height: auto;
             transition: .5s ease;
             opacity: 0;
             color: white;
