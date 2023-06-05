@@ -113,37 +113,37 @@ h3 {
 
 .document_p {
 
-    background-image: url("/images/docu_page.png");
+    background-image: url("./images/docu_page.png");
     width: 300px;
     height: 200px;
 }
 
 .landing_p {
-    background-image: url("/images/land_page.png");
+    background-image: url("./images/land_page.png");
     width: 300px;
     height: 200px;
 }
 
 .tribute_p {
-    background-image: url("/images/juliusceasar_page.png");
+    background-image: url("./images/juliusceasar_page.png");
     width: 250px;
     height: 260px;
 }
 
 .restaur_p {
-    background-image: url("/images/buonappetito.png");
+    background-image: url("./images/buonappetito.png");
     width: 300px;
     height: 200px;
 }
 
 .hobby_p {
-    background-image: url("/images/hobbypageimg.png");
+    background-image: url('./images/hobbypageimg.png');
     width: 300px;
     height: 200px;
 }
 
 .game_p {
-    background-image: url("/images/project_game.png");
+    background-image: url("./images/project_game.png");
     width: 300px;
     height: 200px;
 }
