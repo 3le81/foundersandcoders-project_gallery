@@ -1,6 +1,15 @@
 * {
-    /* background-color: aquamarine; */
+
     box-sizing: border-box;
+    /* background: linear-gradient(45deg,
+            #2df74e,
+            #ffffac); */
+}
+
+body {
+    background: linear-gradient(45deg,
+            #7bf790,
+            #ffffac);
 }
 
 .header-main-logo {
@@ -225,7 +234,7 @@ img:hover {
 
 
 .btn_about {
-    margin: 20px auto;
+    margin: 40px auto auto 20px;
 }
 
 
@@ -244,4 +253,17 @@ footer {
     /* color: rgb(12, 104, 0); */
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#elena {
+    color: black;
+    text-decoration: none;
+}
+
+#elena:hover {
+    color: rgb(56, 144, 68);
+}
+
+#elena:active {
+    color: rgb(205, 243, 213);
 }
