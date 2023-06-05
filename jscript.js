@@ -14,16 +14,20 @@ function restaurant() {
 }
 function hobby() {
     document.getElementById("hobby").innerHTML = "This Hobby page is one of my projects for Founders and Coders";
-}
+};
+
+
 function game() {
     document.getElementById("game").innerHTML = "This page is my project for a toddlers game";
 }
 
-const button = document.getElementById('btn_about');
-const div = document.getElementById('about');
 
-function about() {
-    div.innerHTML = '<p>I started coding a while ago, while I was pregnant with my second baby, and I just fell in love with this world..and I keep learning new and exciting things every day now!</p>';
-}
-button.addEventListener('click', about);
 
+function about_me() {
+    var x = document.getElementById("myself");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+};

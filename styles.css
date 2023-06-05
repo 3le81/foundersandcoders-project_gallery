@@ -95,7 +95,7 @@ h3 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 5px;
 }
 
@@ -103,12 +103,51 @@ h3 {
 .cards_container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 150px;
-    /* position: relative; */
-    width: 50%;
-    */ max-width: 300px;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
+    /* width: 50%; */
+    max-width: 300px;
 }
+
+.document_p {
+
+    background-image: url("/images/docu_page.png");
+    width: 300px;
+    height: 200px;
+}
+
+.landing_p {
+    background-image: url("/images/land_page.png");
+    width: 300px;
+    height: 200px;
+}
+
+.tribute_p {
+    background-image: url("/images/juliusceasar_page.png");
+    width: 250px;
+    height: 260px;
+}
+
+.restaur_p {
+    background-image: url("/images/buonappetito.png");
+    width: 300px;
+    height: 200px;
+}
+
+.hobby_p {
+    background-image: url("/images/hobbypageimg.png");
+    width: 300px;
+    height: 200px;
+}
+
+.game_p {
+    background-image: url("/images/project_game.png");
+    width: 300px;
+    height: 200px;
+}
+
 
 .overlay {
     position: relative;
@@ -117,17 +156,24 @@ h3 {
     background: rgba(0, 0, 0, 0.5);
     /* Black see-through */
     color: #f1f1f1;
-    width: 50%;
+    width: 100%;
     transition: .5s ease;
     opacity: 0;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center;
+    border: none;
 }
 
 .cards_container:hover .overlay {
+    position: relative;
+    bottom: 0;
     opacity: 1;
+    /* background-color: transparent; */
+    color: #f1f1f1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -143,7 +189,6 @@ img:hover {
 @media screen and (max-width: 700px) {
     .container {
         display: block;
-        background-color: rgba(21, 136, 6, 0.2);
         width: 100%;
         height: auto;
     }
@@ -176,46 +221,27 @@ img:hover {
     }
 }
 
-
 /* END MEDIA QUERY ON CARDS and IMAGES */
 
-#btn_about {
-    margin-top: 30px;
-    margin-left: 8px;
-    background-color: rgb(99, 188, 87);
-    padding: 7px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+
+.btn_about {
+    margin: 20px auto;
 }
 
-#btn_about:hover {
-    background-color: rgb(182, 240, 174);
-}
 
-#btn_about:active {
-    color: white;
-    background-color: rgb(99, 188, 87);
-}
-
-#about {
+#myself {
     display: none;
-}
-
-#about {
-    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 8px;
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
     margin-top: 10px;
-
 }
 
 
 footer {
     margin-top: 120px;
-    color: rgb(12, 104, 0);
-    font-weight: bold;
-
-    /* background-color: rgba(21, 136, 6, 0.1); */
-
+    /* color: rgb(12, 104, 0); */
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
