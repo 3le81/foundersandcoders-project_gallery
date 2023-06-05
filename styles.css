@@ -1,9 +1,7 @@
 * {
 
     box-sizing: border-box;
-    /* background: linear-gradient(45deg,
-            #2df74e,
-            #ffffac); */
+
 }
 
 body {
@@ -234,8 +232,27 @@ img:hover {
 
 
 .btn_about {
-    margin: 40px auto auto 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(12, 37, 0);
+    background-color: #ffffac;
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 10px 10px;
 }
+
+.btn_about:hover {
+    background-color: #ffff75;
+    color: #00480c;
+}
+
+.btn_about:active {
+    color: #00480c;
+    background-color: transparent;
+    border: 0.5px solid yellow;
+}
+
 
 
 #myself {
@@ -249,7 +266,7 @@ img:hover {
 
 
 footer {
-    margin-top: 120px;
+    margin-top: 20px;
     /* color: rgb(12, 104, 0); */
     font-size: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
