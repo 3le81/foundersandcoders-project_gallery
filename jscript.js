@@ -16,11 +16,9 @@ function hobby() {
     document.getElementById("hobby").innerHTML = "This Hobby page is one of my projects for Founders and Coders";
 };
 
-
 function game() {
     document.getElementById("game").innerHTML = "This page is my project for a toddlers game";
 }
-
 
 
 function about_me() {
